@@ -30,6 +30,15 @@ public class Main {
         else {
             System.out.println(year + " год не является високосным");
         }
+        System.out.println("Задача 4");
+        int deliveryDistance = 95;
+        int dayAdded = (deliveryDistance - 20) / 40 + 1;
+        int daysForDelivery = dayAdded + 1;
+        if (deliveryDistance <= 20)
+        {System.out.println("Потребуется дней: 1");
+        } else {
+            System.out.println("Потребуется дней: " + daysForDelivery);
+        }
 
 
 
