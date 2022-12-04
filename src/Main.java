@@ -14,6 +14,23 @@ public class Main {
                 System.out.println("Советуем установить облегченную версию приложения для Android по ссылке");
             }
         }
+        System.out.println("Здание 3");
+        int year = 2021;
+        if (year % 400 == 0) {
+            System.out.println(year + " год является високосным");
+        }
+        else if (year % 4 == 0) {
+            if (year % 100 == 0) {
+                System.out.println(year + " год не является високосным");
+            }
+            else {
+                System.out.println(year + " год является високосным");
+            }
+        }
+        else {
+            System.out.println(year + " год не является високосным");
+        }
+
 
 
 
