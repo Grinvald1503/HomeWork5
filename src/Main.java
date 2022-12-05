@@ -42,44 +42,28 @@ public class Main {
             System.out.println("Потребуется дней: " + daysForDelivery);
         }
         System.out.println("Задача 5");
-        byte monthNumber = 13;
+        byte monthNumber = 3;
         String season;
         switch (monthNumber) {
             case 1:
-                season = "Зима";
-            break;
             case 2:
-                season = "Зима";
+            case 12:
+            season = "Зима";
             break;
             case 3:
-                season = "Весна";
-                break;
             case 4:
-                season = "Весна";
-                break;
             case 5:
                 season = "Весна";
                 break;
             case 6:
-                season = "Лето";
-                break;
             case 7:
-                season = "Лето";
-                break;
             case 8:
                 season = "Лето";
                 break;
             case 9:
-                season = "Осень";
-                break;
             case 10:
-                season = "Осень";
-                break;
             case 11:
                 season = "Осень";
-                break;
-            case 12:
-                season = "Зима";
                 break;
             default:
                 season = "Введён несуществующий месяц";
